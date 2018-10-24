@@ -17,3 +17,9 @@ Route::get('/', function () {
 Route::get('/login',function (){
 	return 'login success';
 });
+
+
+
+Route::get('/register',function (){
+	return 'Register success';
+});
