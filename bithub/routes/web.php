@@ -14,12 +14,3 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/login',function (){
-	return 'login success';
-});
-
-
-
-Route::get('/register',function (){
-	return 'Register success';
-});
